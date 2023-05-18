@@ -1,0 +1,1 @@
+/Users/brenobruno/CLionProjects/tcm_security_academy_rust101/src/challnge_c_solution/target/debug/challnge_c_solution: /Users/brenobruno/CLionProjects/tcm_security_academy_rust101/src/challnge_c_solution/src/main.rs

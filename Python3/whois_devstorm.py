@@ -33,7 +33,7 @@ def find_refer_server(iana_response):
 
 def main():
     if len(sys.argv) < 2:
-        print("Uso: whois.py [hostname...]")
+        print("Uso: whois_devstorm.py [hostname...]")
         sys.exit(1)
 
     hostnames = sys.argv[1:]
