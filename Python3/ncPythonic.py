@@ -84,7 +84,7 @@ def handle(self, client_socket):
         while True:
             try:
                 client_socket.send(b'Pythonic: #> ')
-                while '\n' not in cmd_buffer_decode():
+                while '\n' not in cmd_buffer.decode():
                     cmd_buffer += client_socket.recv(64)
                     response = execute(cmd_buffer.decode())
                     if response:
